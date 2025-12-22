@@ -1,7 +1,7 @@
 <?php include '../includes/header.php'; ?>
 <div class="center-box">
     <h2>Student Registration</h2>
-    <form method="POST" action="registerHandler.php" onsubmit="return validateRegister()">
+    <form method="POST" action="registerHandler.php" onsubmit="validateRegister(event)">
         <input type="text" name="fullname" placeholder="Full Name" required>
         <input type="text" name="student_id" placeholder="ID (WCU/...)" required>
         <input type="text" name="college" placeholder="College" required>

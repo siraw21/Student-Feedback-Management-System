@@ -4,3 +4,4 @@
         <li><a href="/Student-feedback-management-system/backend/logout/logout.php">Logout</a></li>
     </ul>
 </nav>
+<div class="content-wrapper">

@@ -8,3 +8,4 @@
     <link rel="stylesheet" href="/Student-feedback-management-system/client/css/dashboard.css">
 </head>
 <body>
+    <div class="content-wrapper">
