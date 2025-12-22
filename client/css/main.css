@@ -1,0 +1,9 @@
+body { margin: 0; font-family: Arial, sans-serif; background-color: lightgrey; color: #212529; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: #343A40; color: white; }
+.logo { font-size: 22px; font-weight: bold; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 25px; }
+.nav-links a { text-decoration: none; color: white; padding: 5px 10px; }
+.hero { height: 60vh; display: flex; justify-content: center; align-items: center; text-align: center; }
+.cta-btn { padding: 12px 28px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 6px; }
+footer { text-align: center; padding: 20px; color: #fff; background-color: #343A40; margin-top: 30px; }
