@@ -1,7 +1,8 @@
 <?php 
-    require_once '../../config/auth.php'; requireLogin();
-    include '../includes/header.php'; 
+    require_once '../../config/auth.php';
+    requireLogin();
     include '../includes/nav.php'; 
+    // include '../includes/header.php'; 
 ?>
 
 <div class="card-container">

@@ -2,7 +2,7 @@
     require_once '../../config/auth.php'; 
     require_once '../../config/db.php'; 
     requireRole('admin'); 
-    include '../includes/header.php'; 
+    // include '../includes/header.php';
     include '../includes/nav.php'; 
 ?>
 

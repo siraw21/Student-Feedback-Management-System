@@ -1,3 +1,8 @@
+<head>
+    <link rel="stylesheet" href="../../client/css/main.css">
+    <link rel="stylesheet" href="../../client/css/dashboard.css">
+    <link rel="stylesheet" href="../../client/css/auth.css">
+</head>
 <nav class="navbar">
     <div class="logo">WCU Dashboard</div>
     <ul class="nav-links">

@@ -1,4 +1,7 @@
-<?php include '../includes/header.php'; ?>
+ <?php
+    include '../includes/header.php'; 
+    // include '../includes/nav.php'; 
+  ?>
 <div class="center-box">
     <h2>Login</h2>
     <form method="POST" action="loginHandler.php">
