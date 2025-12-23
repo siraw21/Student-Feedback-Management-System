@@ -1,3 +1,6 @@
+/* 
+The following CSS styles have been updated to enhance the visual appeal of the dashboard cards.
+Previous styles have been commented out for reference.
 .card-container { 
     display: flex; 
     gap: 20px; 
@@ -16,6 +19,62 @@
 
 .card:hover { 
   background-color: #e9ecef; 
+} */
+.dash-heading {
+    text-align: center;
+    margin-top: 40px;
+    color: #343A40;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* Base Styles */
+    background: white;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+    padding: 30px 15px;
+    border-radius: 8px; /* Slightly rounded for modern feel */
+    
+    /* REMOVED BORDER and ADDED YOUR SHADOW */
+    border: none; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    /* Blue Footer Accent */
+    border-bottom: 10px solid #343A40;
+    
+    /* Behavior */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover Effect: Makes the shadow deeper and lifts the card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #343A40;
+}
+
+.card p {
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
 }
 
 .admin-table {
