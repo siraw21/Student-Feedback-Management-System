@@ -15,14 +15,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wachemo University | Feedback System</title>
+    <title>Student-Feedback-Management-System</title>
     <link rel="stylesheet" href="/Student-feedback-management-system/client/css/main.css">
     <link rel="stylesheet" href="/Student-feedback-management-system/client/css/auth.css">
     <link rel="stylesheet" href="/Student-feedback-management-system/client/css/dashboard.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">Wachemo University</div>
+        
+        <div class="logo">
+            <img class="wcu-logo" src="/Student-feedback-management-system/img/Logo.png" alt="Logo">
+            <p>Wachemo University</p>
+        </div>
         <ul class="nav-links">
             <li><a href="/Student-feedback-management-system/index.php">Home</a></li>
             <li><a href="/Student-feedback-management-system/index.php#about">About</a></li>
