@@ -53,6 +53,10 @@ input, select, textarea {
     font-weight: bold;
 }
 
+.error-msg  {
+    color: #ff0000;
+}
+
 /* Modern Input Fields */
 input, select, textarea {
     width: 100%;
@@ -105,4 +109,30 @@ input:focus {
 .center-box a {
     color: #007BFF;
     text-decoration: none;
+}
+
+ /* dropdown  */
+ /* This targets the dropdown specifically */
+select[name="dept"] {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+/* Modern browsers trick: 
+   This helps the list stay within a reasonable height 
+   so it doesn't jump to the top of the screen.
+*/
+select[name="dept"] option, 
+select[name="dept"] optgroup {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* If the list is still "jumping", we apply a 'size' attribute 
+   temporarily via CSS when clicked to keep it centered.
+*/
+select[name="dept"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
 }
