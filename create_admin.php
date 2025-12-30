@@ -3,7 +3,7 @@ include "config/db.php";
 
 $fullname = "System Administrator";
 $username = "admin";
-$password = "admin123"; // This is the password you will use to login
+$password = "sysadmin"; // This is the password you will use to login
 $role = "admin";
 
 // Generate the hash using your server's current PHP version

@@ -1,21 +1,4 @@
- <?php
-    // include '../includes/header.php'; 
-    // include '../includes/nav.php'; 
-  ?>
-<!-- <div class="center-box">
-    <h2>Login</h2>
-    <form method="POST" action="loginHandler.php">
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <button type="submit" class="btn">Login</button>
-    </form>
-    <p>New? <a href="../register/register.php">Register here</a></p>
-</div> -->
-<?
-// php include '../includes/footer.php';
- ?>
-
- <?php 
+<?php 
 session_start();
 include '../includes/header.php'; 
 ?>

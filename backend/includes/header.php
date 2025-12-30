@@ -1,15 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WCU Feedback System</title>
-    <link rel="stylesheet" href="/Student-feedback-management-system/client/css/main.css">
-    <link rel="stylesheet" href="/Student-feedback-management-system/client/css/auth.css">
-    <link rel="stylesheet" href="/Student-feedback-management-system/client/css/dashboard.css">
-</head>
-<body>
-    <div class="content-wrapper"> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,16 +9,15 @@
     <link rel="stylesheet" href="/Student-feedback-management-system/client/css/dashboard.css">
 </head>
 <body>
-    <nav class="navbar">
-        
+    <nav class="navbar"> 
         <div class="logo">
             <img class="wcu-logo" src="/Student-feedback-management-system/img/Logo.png" alt="Logo">
             <p>Wachemo University</p>
         </div>
         <ul class="nav-links">
             <li><a href="/Student-feedback-management-system/index.php">Home</a></li>
-            <li><a href="/Student-feedback-management-system/index.php#about">About</a></li>
-            <li><a href="/Student-feedback-management-system/index.php#contact">Contact</a></li>
+            <li><a href="/Student-feedback-management-system/backend/dashboard/about.php">About</a></li>
+            <li><a href="/Student-feedback-management-system/backend/dashboard/contact.php">Contact</a></li>
             <li><a href="/Student-feedback-management-system/backend/login/login.php" class="login-btn">Login</a></li>
         </ul>
     </nav>
